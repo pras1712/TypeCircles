@@ -23,7 +23,7 @@ public class PythagoreanTheorem extends ConsoleProgram {
 	}
 	
 	private double squareRoot(double x){
-		y=5;
+		double y=5;
 		for (int i = 0; i < 100; i++) {
 			y=(y + x/y)/2;
 			}
