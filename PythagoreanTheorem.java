@@ -12,8 +12,8 @@ public class PythagoreanTheorem extends ConsoleProgram {
 	
 	public void run() {
 		println("Enter values to compute the pythagorean theorem.");
-		double a= readInt("Enter a: ");
-		double b= readInt("Enter b: ");
+		double a= readDouble("Enter a: ");
+		double b= readDouble("Enter b: ");
 		double c = a+b;
 		println("c= " + c + ".");
 	}
