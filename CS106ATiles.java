@@ -16,7 +16,7 @@ public class CS106ATiles extends GraphicsProgram {
 	private static final int TILE_SPACE = 20;
 
 	public void run() {
-		/* You fill this in. */
+		
 	}
 }
 

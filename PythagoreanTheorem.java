@@ -9,7 +9,12 @@
 import acm.program.*;
 
 public class PythagoreanTheorem extends ConsoleProgram {
+	
 	public void run() {
-		/* You fill this in */
+		println("Enter values to compute the pythagorean theorem.");
+		double a= readInt("Enter a: ");
+		double b= readInt("Enter b: ");
+		int c = a+b;
+		println("c= " + c + ".");
 	}
 }
