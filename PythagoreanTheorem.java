@@ -4,6 +4,8 @@
  * Section Leader: 
  * -----------------------------
  * This file is the starter file for the PythagoreanTheorem problem.
+ * The program computes the hypotenuse of a triangle with given legs
+ * a and b.
  */
 
 import acm.program.*;
@@ -21,6 +23,13 @@ public class PythagoreanTheorem extends ConsoleProgram {
 	private double square(double x){
 		return x*x;
 	}
+	
+	/*
+	 * Use Newton's Method to approximate squareroot. 
+	 * Iterate 100 times for accuracy.
+	 * We used the starting approximation of 5.
+	 * Doesn't matter what we pick
+	 */
 	
 	private double squareRoot(double x){
 		double y=5;
