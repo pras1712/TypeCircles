@@ -9,8 +9,19 @@
 import acm.program.*;
 
 public class Hailstone extends ConsoleProgram {
+	
+	private static final int SENTINEL = 1;
+	
 	public void run() {
-		/* You fill this in */
+		while (true) {
+			int value = readInt("Enter a number: ");
+			if((value % 2) == 1){
+				value= value/2;
+				println(2*value+ "is even, so I take half:" + value );
+				break;
+			}
+		}
+	
 	}
 }
 
