@@ -30,9 +30,11 @@ public class FindRange extends ConsoleProgram {
 			}
 		}
 		
+		if (max!=-1000000000 && min!=1000000000){
 		println("smallest="+min);
 		println("largest="+max);	
 		
+		}
 	}
 }
 
