@@ -19,7 +19,7 @@ public class Hailstone extends ConsoleProgram {
 			if (value == SENTINEL) break;
 			if((value % 2) == 0){
 				value= value/2;
-				println(2*value + "is even, so I take half: " + value );
+				println(2*value + " is even, so I take half: " + value );
 				total++;
 			} else{
 				value= 3*value +1;
@@ -28,7 +28,7 @@ public class Hailstone extends ConsoleProgram {
 			}
 		}
 		
-		println("The process took" + total + "to reach 1");
+		println("The process took " + total + " to reach 1");
 	
 	}
 }
