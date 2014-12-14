@@ -26,8 +26,6 @@ public class CS106ATiles extends GraphicsProgram {
 		double cy = getHeight()/2;
 		drawTileWithLabel(cx-TILE_SPACE/2.0-TILE_WIDTH/2.0, cx-TILE_SPACE/2.0-TILE_HEIGHT/2.0);
 		drawTileWithLabel(cx+TILE_SPACE/2.0+TILE_WIDTH/2.0, cx+TILE_SPACE/2.0+TILE_HEIGHT/2.0);
-		drawTileWithLabel(cx-TILE_SPACE/2.0-TILE_WIDTH/2.0, cx+TILE_SPACE/2.0+TILE_HEIGHT/2.0);
-		drawTileWithLabel(cx+TILE_SPACE/2.0+TILE_WIDTH/2.0, cx-TILE_SPACE/2.0-TILE_HEIGHT/2.0);
 	}
 	
 	/** Draw tile with center (x,y) */
