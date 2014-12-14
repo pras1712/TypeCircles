@@ -18,7 +18,7 @@ public class FindRange extends ConsoleProgram {
 		int min=Integer.MAX_VALUE;
 		while (true) {
 			int value = readInt(" ? ");
-			if (value==SENTINEL && max==-1000000000){
+			if (value==SENTINEL && max==Integer.MIN_VALUE){
 				println("No numbers have been entered");
 			}
 			if (value == SENTINEL) break;
