@@ -35,16 +35,16 @@ public class CS106ATiles extends GraphicsProgram {
 	
 	/** Draw tile with center (x,y) */
 	
+	private void drawTileWithLabel(double x, double y){
+		drawTile(x, y);
+		drawLabel(x, y);	
+	}
+	
 	private void drawTile(double x, double y) {
 		GRect tile= new GRect(TILE_WIDTH, TILE_HEIGHT);
 		double a = x - TILE_WIDTH/2.0;
 		double b = y - TILE_HEIGHT/2.0;
 		add(tile, a, b);
-	}
-	
-	private void drawTileWithLabel(double x, double y){
-		drawTile(x, y);
-		drawLabel(x, y);	
 	}
 	
 	private void drawLabel(double x, double y){
