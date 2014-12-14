@@ -14,8 +14,8 @@ public class FindRange extends ConsoleProgram {
 	
 	public void run() {
 		println("This program finds the largest and smallest numbers.");
-		int max=-1000000000;
-		int min=1000000000;
+		int max=Integer.MIN_VALUE;
+		int min=Integer.MAX_VALUE;
 		while (true) {
 			int value = readInt(" ? ");
 			if (value==SENTINEL && max==-1000000000){
@@ -30,7 +30,7 @@ public class FindRange extends ConsoleProgram {
 			}
 		}
 		
-		if (max!=-1000000000 && min!=1000000000){
+		if (max!=Integer.MIN_VALUE && min!=Integer.MAX_VALUE){
 		println("smallest="+min);
 		println("largest="+max);	
 		
