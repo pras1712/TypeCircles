@@ -14,15 +14,21 @@ public class FindRange extends ConsoleProgram {
 	
 	public void run() {
 		println("This program finds the largest and smallest numbers.");
-		int max=0;
+		int max=-1000000000;
+		int min=1000000000;
 		while (true) {
 			int value = readInt(" ? ");
 			if (value == SENTINEL) break;
 			if (value> max){
 				max= value;
 			}
+			if (value<min){
+				min=value;
+			}
 		}
-		println("largest="+max);
+		
+		println("smallest="+min);
+		println("largest="+max);	
 		
 	}
 }
