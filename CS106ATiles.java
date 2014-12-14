@@ -45,7 +45,7 @@ public class CS106ATiles extends GraphicsProgram {
 	private void drawLabel(double x, double y){
 		GLabel label= new GLabel("CS106A");
 		double a = x - label.getWidth()/2.0;
-		double b = y -  label.getAscent();
+		double b = y +  label.getAscent()/2.0;
 		add(label, a, b);	
 	}
 }
