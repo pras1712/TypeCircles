@@ -33,7 +33,8 @@ public class Pyramid extends GraphicsProgram {
 	
 	
 	private void drawBrick(double x, double y){
-		new GRect( x, y, BRICK_WIDTH, BRICK_HEIGHT);
+		GRect brick =new GRect( x, y, BRICK_WIDTH, BRICK_HEIGHT);
+		add(brick);
 	}
 	
 	
