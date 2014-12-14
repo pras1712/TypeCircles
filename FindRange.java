@@ -9,8 +9,16 @@
 import acm.program.*;
 
 public class FindRange extends ConsoleProgram {
+	
+	private static final int SENTINEL = 0;
+	
 	public void run() {
-		/* You fill this in */
+		while (true) {
+			int value = readInt(" ? ");
+			if (value == SENTINEL) break;
+		}
+		
+		
 	}
 }
 
