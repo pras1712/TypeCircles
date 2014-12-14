@@ -16,6 +16,7 @@ public class Target extends GraphicsProgram {
 		double cy = getHeight()/2;
 		drawCircle(cx, cy, ONE_INCH, Color.RED);
 		drawCircle(cx, cy, 0.65*ONE_INCH, Color.WHITE);
+		drawCircle(cx, cy, 0.3*ONE_INCH, Color.WHITE);
 	}
 	
 	private void drawCircle(double a, double b, double r, Color c){
