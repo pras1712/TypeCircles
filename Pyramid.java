@@ -30,7 +30,7 @@ public class Pyramid extends GraphicsProgram {
 		double cy = getHeight(); 
 		for (int i = 0; i<14 ; i++) {
 			double z= i/2.0;
-			bulidRow(i,cx-z*BRICK_WIDTH,cy-(15-i)*BRICK_HEIGHT);
+			bulidRow(i,cx-(z*BRICK_WIDTH),cy-(15-i)*BRICK_HEIGHT);
 			}	
 	}
 	
