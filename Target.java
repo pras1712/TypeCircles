@@ -14,7 +14,8 @@ public class Target extends GraphicsProgram {
 	public void run() {
 		double cx = getWidth()/2;
 		double cy = getHeight()/2;
-		drawCircle(cx, cy, 72, Color.RED);
+		drawCircle(cx, cy, ONE_INCH, Color.RED);
+		drawCircle(cx, cy, 0.65*ONE_INCH, Color.WHITE);
 	}
 	
 	private void drawCircle(double a, double b, double r, Color c){
@@ -25,4 +26,7 @@ public class Target extends GraphicsProgram {
 		circle.setFilled(true);
 		add(circle, x, y);
 	}
+	
+	private static final int ONE_INCH=72;
+	
 }
