@@ -28,7 +28,9 @@ public class Pyramid extends GraphicsProgram {
 	public void run() {
 		double cx = getWidth()/2;
 		double cy = getHeight();
-		buildRow(14, 0, cy-BRICK_HEIGHT);
+		for (int i = 0; i<14 ; i++) {
+			buildRow(i,cx-i*BRICK_WIDTH/2.0,cy-(14-i)*BRICK_HEIGHT);
+			}
 	}
 	
 	
