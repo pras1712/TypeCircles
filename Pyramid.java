@@ -28,7 +28,7 @@ public class Pyramid extends GraphicsProgram {
 	public void run() {
 		double cx = getWidth();
 		double cy = getHeight(); 
-		bulidRow(5,10,10);
+		bulidRow(5,10,80);
 	}
 	
 	
