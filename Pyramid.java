@@ -43,7 +43,7 @@ public class Pyramid extends GraphicsProgram {
 	 */
 	
 	private void bulidRow(int n, double x, double y){
-		for (int i = n; i > 0; i++) {
+		for (int i = 0; i < n; i++) {
 			drawBrick((x+i)*BRICK_WIDTH, y);
 			}
 	}
