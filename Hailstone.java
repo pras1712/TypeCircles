@@ -15,7 +15,8 @@ public class Hailstone extends ConsoleProgram {
 	public void run() {
 		int value = readInt("Enter a number: ");
 		while (true) {
-			if((value % 2) == 1){
+			if (value == SENTINEL) break;
+			if((value % 2) == 0){
 				value= value/2;
 				println(2*value+ "is even, so I take half:" + value );
 				break;
