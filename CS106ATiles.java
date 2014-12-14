@@ -16,10 +16,10 @@ public class CS106ATiles extends GraphicsProgram {
 	private static final int TILE_SPACE = 20;
 	
 	/** Width of tiles */
-	private static final int TILE_WIDTH = 20;	
+	private static final int TILE_WIDTH = 100;	
 	
 	/** height of tiles */
-	private static final int TILE_HEIGHT = 20;
+	private static final int TILE_HEIGHT = 100;
 
 	public void run() {
 		double cx = getWidth()/2;
