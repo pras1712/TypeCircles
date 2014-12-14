@@ -23,7 +23,7 @@ public class Pyramid extends GraphicsProgram {
 	private static final int BRICK_HEIGHT = 12;
 
 /** Number of bricks in the base of the pyramid */
-	private static final int BRICKS_IN_BASE = 14;
+	private static final int BRICKS_IN_BASE = 5;
 	
 	public void run() {
 		double cx = getWidth()/2;
