@@ -23,12 +23,12 @@ public class Hailstone extends ConsoleProgram {
 				total++;
 			} else{
 				value= 3*value +1;
-				println((value-1)/3 + "is odd, so I take 3n+1: " + value );
+				println((value-1)/3 + " is odd, so I take 3n+1: " + value );
 				total++;
 			}
 		}
 		
-		println("The process took" +total+ "to reach 1");
+		println("The process took" + total + "to reach 1");
 	
 	}
 }
