@@ -31,6 +31,7 @@ public class Pyramid extends GraphicsProgram {
 		for (int i = 0; i<BRICKS_IN_BASE ; i++) {
 			buildRow(i,cx-i*BRICK_WIDTH/2.0,cy-(BRICKS_IN_BASE-i)*BRICK_HEIGHT);
 			}
+		buildRow(5, 10, 10);
 	}
 	
 	
