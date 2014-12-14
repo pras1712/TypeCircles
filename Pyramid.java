@@ -44,7 +44,7 @@ public class Pyramid extends GraphicsProgram {
 	
 	private void buildRow(int n, double x, double y){
 		for (int i = 0; i < n; i++) {
-			drawBrick((x+20+i)*BRICK_WIDTH, y);
+			drawBrick(x+i*BRICK_WIDTH, y);
 			}
 	}
 	
