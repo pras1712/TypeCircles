@@ -26,10 +26,11 @@ public class Pyramid extends GraphicsProgram {
 	private static final int BRICKS_IN_BASE = 14;
 	
 	public void run() {
-		double cx = getWidth();
+		double cx = getWidth()/2;
 		double cy = getHeight(); 
 		for (int i = 0; i<14 ; i++) {
-			bulidRow(i,0,cy-(15-i)*BRICK_HEIGHT);
+			double z= i/2.0;
+			bulidRow(i,cx-z*BRICK_WIDTH,cy-(15-i)*BRICK_HEIGHT);
 			}	
 	}
 	
