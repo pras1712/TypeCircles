@@ -3,7 +3,7 @@
  * Name: 
  * Section Leader: 
  * --------------------
- * This file is the starter file for the FindRange problem.
+ * This program finds the largest and smallest numbers out of a set of given numbers
  */
 
 import acm.program.*;
