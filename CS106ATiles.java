@@ -16,7 +16,7 @@ public class CS106ATiles extends GraphicsProgram {
 	private static final int TILE_SPACE = 20;
 	
 	/** Width of tiles */
-	private static final int TILE_WIDTH = 100;	
+	private static final int TILE_WIDTH = 150;	
 	
 	/** height of tiles */
 	private static final int TILE_HEIGHT = 80;
