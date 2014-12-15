@@ -11,6 +11,9 @@ import acm.program.*;
 import java.awt.*;
 
 public class Target extends GraphicsProgram {	
+	
+	private static final int ONE_INCH=72;
+	
 	public void run() {
 		double cx = getWidth()/2;
 		double cy = getHeight()/2;
@@ -27,7 +30,5 @@ public class Target extends GraphicsProgram {
 		circle.setFilled(true);
 		add(circle, x, y);
 	}
-	
-	private static final int ONE_INCH=72;
 	
 }
