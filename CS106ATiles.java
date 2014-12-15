@@ -8,7 +8,6 @@
 
 import acm.graphics.*;
 import acm.program.*;
-import java.awt.*;
 
 public class CS106ATiles extends GraphicsProgram {
 	
@@ -24,8 +23,16 @@ public class CS106ATiles extends GraphicsProgram {
 	public void run() {
 		double cx = getWidth()/2;
 		double cy = getHeight()/2;
+		
+		/*
+		 * These are the numbers by which the centers of the tiles are offset
+		 * from the center of the display
+		 */
+		
 		double a= TILE_SPACE/2.0+TILE_WIDTH/2.0;
 		double b= TILE_SPACE/2.0+TILE_HEIGHT/2.0;
+		
+	
 		drawTileWithLabel(cx-a, cy-b);
 		drawTileWithLabel(cx+a, cy+b);
 		drawTileWithLabel(cx-a, cy+b);
@@ -33,7 +40,7 @@ public class CS106ATiles extends GraphicsProgram {
 		
 	}
 	
-	/** Draw tile with center (x,y) */
+	/** Draw tile with label centered at (x,y) */
 	
 	private void drawTileWithLabel(double x, double y){
 		drawTile(x, y);
