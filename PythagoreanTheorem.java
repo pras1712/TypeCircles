@@ -29,6 +29,7 @@ public class PythagoreanTheorem extends ConsoleProgram {
 	 * Iterate 100 times for accuracy.
 	 * We used the starting approximation of 5.
 	 * Doesn't matter what we pick
+	 * (This is before I learned java has a math package)
 	 */
 	
 	private double squareRoot(double x){
