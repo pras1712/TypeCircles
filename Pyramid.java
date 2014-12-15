@@ -12,7 +12,6 @@
 
 import acm.graphics.*;
 import acm.program.*;
-import java.awt.*;
 
 public class Pyramid extends GraphicsProgram {
 
@@ -29,7 +28,13 @@ public class Pyramid extends GraphicsProgram {
 		double cx = getWidth()/2;
 		double cy = getHeight();
 		for (int i = 0; i<BRICKS_IN_BASE ; i++) {
-			buildRow(i+1,cx-i*BRICK_WIDTH/2.0,cy-(BRICKS_IN_BASE-i)*BRICK_HEIGHT);
+			
+			/*
+			 * Each row is built a brick's height above the last, and half a brick's
+			 * width to the right
+			 */
+			
+			buildRow(i+1,cx-i*BRICK_WIDTH/2.0,cy-(BRICKS_IN_BASE-i)*BRICK_HEIGHT); 
 			}
 	}
 	
