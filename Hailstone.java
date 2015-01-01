@@ -29,7 +29,7 @@ public class Hailstone extends ConsoleProgram {
 				total++; //add to number of steps
 			}
 			if(value< originalvalue){
-				println("DOWNHILL FROM HERE");
+				println("DOWNHILL FROM HERE:" +total);
 			}
 		}
 		
