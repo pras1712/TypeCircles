@@ -15,6 +15,7 @@ public class Hailstone extends ConsoleProgram {
 	
 	public void run() {
 		int value = readInt("Enter a number: ");
+		int originalvalue= value;
 		int total=0;
 		while (true) {
 			if (value == SENTINEL) break;
@@ -26,6 +27,9 @@ public class Hailstone extends ConsoleProgram {
 				value= 3*value +1;
 				println((value-1)/3 + " is odd, so I take 3n+1: " + value );
 				total++; //add to number of steps
+			}
+			if(value< originalvalue){
+				println("DOWNHILL FROM HERE");
 			}
 		}
 		
