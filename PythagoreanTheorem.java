@@ -36,7 +36,7 @@ public class PythagoreanTheorem extends ConsoleProgram {
 		double y=5;
 		for (int i = 0; i < 100; i++) {
 			y=(y + x/y)/2;
-			}
+		}
 		return y;
 	}
 }
