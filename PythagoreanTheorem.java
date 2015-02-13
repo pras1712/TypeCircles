@@ -11,7 +11,7 @@
 import acm.program.*;
 
 public class PythagoreanTheorem extends ConsoleProgram {
-	
+
 	public void run() {
 		println("Enter values to compute the pythagorean theorem.");
 		double a= readDouble("Enter a: ");
@@ -19,11 +19,11 @@ public class PythagoreanTheorem extends ConsoleProgram {
 		double c = squareRoot(square(a)+ square(b));
 		println("c= " + c + ".");
 	}
-	
+
 	private double square(double x){
 		return x*x;
 	}
-	
+
 	/*
 	 * Use Newton's Method to approximate squareroot. 
 	 * Iterate 100 times for accuracy.
@@ -31,7 +31,7 @@ public class PythagoreanTheorem extends ConsoleProgram {
 	 * Doesn't matter what we pick
 	 * (This is before I learned java has a math package)
 	 */
-	
+
 	private double squareRoot(double x){
 		double y=5;
 		for (int i = 0; i < 100; i++) {
