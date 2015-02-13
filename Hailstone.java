@@ -19,7 +19,7 @@ public class Hailstone extends ConsoleProgram {
 		while (true) {
 			if (value == SENTINEL) break;
 			if((value % 2) == 0){
-				value= value/2;
+				value/= 2;
 				println(2*value + " is even, so I take half: " + value );
 			} else{
 				value= 3*value +1;
