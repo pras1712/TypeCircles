@@ -24,7 +24,6 @@ public class Hailstone extends ConsoleProgram {
 			} else {
 //				(value*=3)++;
 				value = 3*value + 1;
-				value= 3*value +1;
 				println((value-1)/3 + " is odd, so I take 3n+1: " + value );
 			}
 			count++; //add to number of steps
