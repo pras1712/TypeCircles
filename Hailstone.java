@@ -15,25 +15,21 @@ public class Hailstone extends ConsoleProgram {
 	
 	public void run() {
 		int value = readInt("Enter a number: ");
-		int originalvalue= value;
-		int total=0;
+		int count = 0;
 		while (true) {
 			if (value == SENTINEL) break;
 			if((value % 2) == 0){
 				value= value/2;
 				println(2*value + " is even, so I take half: " + value );
-				total++; //add to number of steps
+				count++; //add to number of steps
 			} else{
 				value= 3*value +1;
 				println((value-1)/3 + " is odd, so I take 3n+1: " + value );
-				total++; //add to number of steps
-			}
-			if(value< originalvalue){
-				println("DOWNHILL FROM HERE:" +total);
+				count++; //add to number of steps
 			}
 		}
 		
-		println("The process took " + total + " to reach 1");
+		println("The process took " + count + " to reach 1");
 	
 	}
 }
