@@ -24,7 +24,6 @@ public class FindRange extends ConsoleProgram {
 		int max=Integer.MIN_VALUE;
 		int min=Integer.MAX_VALUE;
 
-
 		while (true) {
 			int value = readInt(" ? ");
 			if (value==SENTINEL && max==Integer.MIN_VALUE){
