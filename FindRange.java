@@ -35,6 +35,7 @@ public class FindRange extends ConsoleProgram {
 			if (value<min){
 				min=value;
 			}
+			value = readInt(" ? ");
 		}
 
 		if (max!=Integer.MIN_VALUE && min!=Integer.MAX_VALUE){ //If any number has been put, these numbers won't both be the max and min.
