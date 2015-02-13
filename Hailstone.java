@@ -21,12 +21,11 @@ public class Hailstone extends ConsoleProgram {
 			if((value % 2) == 0){
 				value= value/2;
 				println(2*value + " is even, so I take half: " + value );
-				count++; //add to number of steps
 			} else{
 				value= 3*value +1;
 				println((value-1)/3 + " is odd, so I take 3n+1: " + value );
-				count++; //add to number of steps
 			}
+			count++; //add to number of steps
 		}
 		
 		println("The process took " + count + " to reach 1");
