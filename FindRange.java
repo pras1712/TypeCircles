@@ -28,7 +28,6 @@ public class FindRange extends ConsoleProgram {
 			if (value==SENTINEL && max==Integer.MIN_VALUE){
 				println("No numbers have been entered");
 			}
-			if (value == SENTINEL) break;
 			if (value> max){
 				max= value;
 			}
