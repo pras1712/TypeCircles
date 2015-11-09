@@ -1,0 +1,4 @@
+Manifest-Version: 1.0
+Main-Class: TypeCircles
+Class-Path: acm.jar TypeCircles.jar
+
